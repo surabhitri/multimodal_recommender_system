@@ -17,7 +17,16 @@ A vector database stores data in the form of vectors and allows for efficient si
 Vector search is a method of finding similar items in a dataset by comparing vectors. Each item is represented as a vector in a high-dimensional space, and similarity is determined by the distance between these vectors. This technique is especially useful for tasks involving images and text, where traditional keyword search methods are inadequate.
 
 ### Embeddings
-Embeddings are dense vector representations of data. In this project, embeddings are used to represent images and text descriptions of fashion items in a shared vector space, allowing for efficient similarity comparisons.
+Embeddings are dense vector representations of data.
+
+#### Multimodal Embeddings
+Multimodal embeddings combine different types of data (such as text and images) into a unified vector space. This allows for cross-modal retrieval and comparison. In this project, we use Google’s multimodal embeddings, which are designed to capture the semantic meaning of both visual and textual content in a shared embedding space.
+
+Technically, these embeddings are generated using deep learning models that process images and text through separate pathways that eventually converge. For example:
+
+Image Pathway: Convolutional Neural Networks (CNNs) or other image processing models extract features from images, which are then mapped to the embedding space.
+Text Pathway: Transformers or other text processing models extract semantic information from text descriptions, which are also mapped to the same embedding space.
+By training these models together, the resulting embeddings ensure that similar items (whether described textually or visually) are close to each other in the high-dimensional vector space. This enables efficient similarity search and retrieval across different modalities.
 
 ### Multimodal Recommender System
 A multimodal recommender system leverages multiple types of data (e.g., images and text) to provide recommendations. In this project, both image embeddings and text embeddings are used to find and suggest similar fashion items.
