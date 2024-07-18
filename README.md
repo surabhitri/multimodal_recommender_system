@@ -33,7 +33,13 @@ By training these models together, the resulting embeddings ensure that similar 
 A multimodal recommender system leverages multiple types of data (e.g., images and text) to provide recommendations. In this project, both image embeddings and text embeddings are used to find and suggest similar fashion items.
 
 ### Hybrid Search
-Hybrid search combines multiple search strategies to improve the accuracy and relevance of search results. In this project, both vector similarity and keyword-based search are used to enhance the recommendation system's performance.
+Hybrid search combines the strengths of both traditional keyword-based search and modern vector search. It ensures that the search results are both contextually relevant and precise. In this project, we implement two fusion methods:
+
+Ranked Fusion: This method assigns scores to search results based on their ranks in keyword and vector searches, then sums these rank-based scores to produce the final result.
+
+Relative Score Fusion: This method normalizes the scores from keyword and vector searches and then combines these normalized scores to maintain the relative importance of each search type. This approach often yields more nuanced and relevant results.
+
+For this application, we opted for the Ranked Fusion method as it provided more consistent and desirable results for our specific use case.
 
 ## Running the Application
 
