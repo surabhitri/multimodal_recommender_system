@@ -10,6 +10,9 @@ In this project, you'll learn how to leverage Google Vertex AI, Weaviate vector 
 
 ## Key Concepts
 
+### Vector Database
+A vector database stores data in the form of vectors and allows for efficient similarity search and retrieval. In this project, Weaviate is used as the vector database to store and query the vector embeddings of fashion items. This enables fast and accurate retrieval of similar items based on vector similarity.
+
 ### Vector Search
 Vector search is a method of finding similar items in a dataset by comparing vectors. Each item is represented as a vector in a high-dimensional space, and similarity is determined by the distance between these vectors. This technique is especially useful for tasks involving images and text, where traditional keyword search methods are inadequate.
 
