@@ -6,7 +6,7 @@ Have you ever browsed through photo-sharing sites like Instagram or Pinterest, s
 
 ## Overview
 
-In this project, you'll learn how to leverage Google Vertex AI, Weaviate vector database, Google’s multimodal embeddings, Retrieval-Augmented Generation (RAG), and Weaviate’s hybrid search feature. By combining these tools, you'll perform vector similarity searches and build a sophisticated multi-modal Recommender System.
+In this project, you'll learn how to leverage Google Vertex AI, Weaviate vector database, Google’s multimodal embeddings, Retrieval-Augmented Generation (RAG), and Weaviate’s hybrid search feature. By combining these tools, you'll perform vector similarity searches and build a sophisticated multi-modal Recommender System, and deploy the application on Streamlit.
 
 ## Key Concepts
 
