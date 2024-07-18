@@ -25,6 +25,7 @@ Multimodal embeddings combine different types of data (such as text and images) 
 Technically, these embeddings are generated using deep learning models that process images and text through separate pathways that eventually converge. For example:
 
 Image Pathway: Convolutional Neural Networks (CNNs) or other image processing models extract features from images, which are then mapped to the embedding space.
+
 Text Pathway: Transformers or other text processing models extract semantic information from text descriptions, which are also mapped to the same embedding space.
 By training these models together, the resulting embeddings ensure that similar items (whether described textually or visually) are close to each other in the high-dimensional vector space. This enables efficient similarity search and retrieval across different modalities.
 
