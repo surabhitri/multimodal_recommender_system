@@ -24,9 +24,9 @@ Multimodal embeddings combine different types of data (such as text and images) 
 
 Technically, these embeddings are generated using deep learning models that process images and text through separate pathways that eventually converge. For example:
 
-Image Pathway: Convolutional Neural Networks (CNNs) or other image processing models extract features from images, which are then mapped to the embedding space.
+**Image Pathway**: Convolutional Neural Networks (CNNs) or other image processing models extract features from images, which are then mapped to the embedding space.
 
-Text Pathway: Transformers or other text processing models extract semantic information from text descriptions, which are also mapped to the same embedding space.
+**Text Pathway**: Transformers or other text processing models extract semantic information from text descriptions, which are also mapped to the same embedding space.
 By training these models together, the resulting embeddings ensure that similar items (whether described textually or visually) are close to each other in the high-dimensional vector space. This enables efficient similarity search and retrieval across different modalities.
 
 ### Multimodal Recommender System
@@ -35,9 +35,9 @@ A multimodal recommender system leverages multiple types of data (e.g., images a
 ### Hybrid Search
 Hybrid search combines the strengths of both traditional keyword-based search and modern vector search. It ensures that the search results are both contextually relevant and precise. In this project, we implement two fusion methods:
 
-Ranked Fusion: This method assigns scores to search results based on their ranks in keyword and vector searches, then sums these rank-based scores to produce the final result.
+**Ranked Fusion**: This method assigns scores to search results based on their ranks in keyword and vector searches, then sums these rank-based scores to produce the final result.
 
-Relative Score Fusion: This method normalizes the scores from keyword and vector searches and then combines these normalized scores to maintain the relative importance of each search type. This approach often yields more nuanced and relevant results.
+**Relative Score Fusion**: This method normalizes the scores from keyword and vector searches and then combines these normalized scores to maintain the relative importance of each search type. This approach often yields more nuanced and relevant results.
 
 For this application, we opted for the Ranked Fusion method as it provided more consistent and desirable results for our specific use case.
 
