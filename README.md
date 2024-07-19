@@ -4,6 +4,8 @@
 
 Have you ever browsed through photo-sharing sites like Instagram or Pinterest, spotted an outfit you loved, but had no idea where to find the clothing? This project will guide you through building an application that allows you to upload a photo of any outfit or type in a text description, and then suggests similar apparel pieces to help you recreate the look.
 
+https://github.com/user-attachments/assets/15058006-88d1-407c-85b2-d7bc71051275
+
 ## Overview
 
 In this project, you'll learn how to leverage Google Vertex AI, Weaviate's vector database, Google’s multimodal embeddings, Retrieval-Augmented Generation (RAG), and Weaviate’s hybrid search feature. By combining these tools, you'll perform vector similarity searches and build a sophisticated multi-modal Recommender System, and deploy the application on Streamlit.
